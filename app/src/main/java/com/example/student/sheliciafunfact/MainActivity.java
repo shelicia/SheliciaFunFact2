@@ -20,13 +20,13 @@ public class MainActivity extends ActionBarActivity {
     //declare our view variables and assign them reviews from the layout file
     TextView factLabel = (TextView) findViewById(R. id.factTextView);
     Button showFactButton = (Button) findViewById(R.id.showFactButton);
-   View.OnClickListener Listener = new View.OnClickListener() {
+    View.OnClickListener listener = new View.OnClickListener() {
        @Override
        public void onClick(View v) {
 
        }
    };
-    showFactButton.setOnClickListener(Listener);
+    showFactButton.setOnClickListener();
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
